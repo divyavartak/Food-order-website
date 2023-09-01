@@ -1,0 +1,148 @@
+/*
+    Admin panel css
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(249, 252, 248);
+    color: rgb(252, 255, 252);
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%; 
+    margin: 0 auto;
+    background-color: #fae3e3;
+    
+}
+
+.text-center{
+    text-align: center;
+    color: black;
+    background-color: #fae3e3;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.tbl-full{
+    width: 100%;
+
+}
+.tbl-full tr th ,td{
+    color: black;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid rgb(12, 12, 12);
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;    
+}
+
+.btn-primary{
+    background-color: #499df1;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+.btn-danger{
+    background-color: #ff7f50;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #ff6348;
+}
+.success{
+    color: #2ed573;
+    font-weight: bold;
+}
+.error{
+    color: #ff4757;
+    font-weight: bold;
+}
+
+/* CSS for menu*/
+.menu{
+    border-bottom: 3px solid rgb(243, 132, 228);
+    background-color: rgb(238, 155, 210);
+}
+.menu .wrapper,ul,li,a{
+    background-color: #f3c3c3;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #FD7272;
+}
+.menu ul li a:hover{
+    color: #FEA47F;
+}
+
+/* CSS for main-content*/
+.main-content{
+    background-color: rgb(236, 185, 220);
+    padding: 3% 0;
+}
+.col-4 {
+    width: 18%;
+    background-color: rgb(245, 164, 164);
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    border: 2px solid rgb(236, 121, 121);
+}
+.col-4 h1, h2 {
+    color: black;
+    background-color: rgb(241, 163, 163);
+    
+}
+.box{
+    background-color: rgb(53, 27, 27);
+}
+/* CSS for footer*/
+.footer{
+    background-color: rgb(238, 155, 210);
+    color: rgb(221, 14, 14);
+}
+
+/* CSS for login */
+.login{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
