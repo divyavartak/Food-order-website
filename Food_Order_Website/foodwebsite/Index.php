@@ -132,7 +132,7 @@ include('../config//constants.php');
 
   
 <section>
-<h3>Our Category</h3>
+<h3>Our Food</h3>
      <div class="container"> 
         <?php     
         $sql = "select * from tbl_food limit 4 ";
